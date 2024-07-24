@@ -1,0 +1,1 @@
+<?phpsession_start();unset($_SESSION["code"]);unset($_SESSION["type"]);unset($_SESSION["error"]);session_destroy();echo("<script>location.href='index.php'</script>");?>
